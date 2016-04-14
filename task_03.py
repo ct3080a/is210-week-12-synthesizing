@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Task 03 module"""
 
+
 def exception_test(arg1, arg2, arg3):
     """function docstring.
     Args:

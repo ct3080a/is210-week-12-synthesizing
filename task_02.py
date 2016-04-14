@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """CustomError"""
 
+
 class CustomError(Exception):
     """Class CustomError, Subclass of Exception"""
 
