@@ -6,17 +6,14 @@
 class BaseError(Exception):
     """This is the Parent Class."""
 
-    def init __self__()
-    
-    
 class StringError(BaseError, TypeError):
+    """This is the sub class."""
     
 
-    
-class NumberError(BaseError`, ``TypeError):
-    """Sublass of BaseError` and `TypeError."""
+class NumberError(BaseError, TypeError):
+    """This is the sub class."""
 
-                  
+                          
 class NonZeroError(NumberError):
     """Subclass of NumberError."""
 
