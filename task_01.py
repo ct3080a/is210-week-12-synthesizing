@@ -9,13 +9,11 @@ class BaseError(Exception):
 
 class StringError(BaseError, TypeError):
     """This is the sub class."""
-    
+
 
 class NumberError(BaseError, TypeError):
     """This is the sub class."""
 
-                          
+
 class NonZeroError(NumberError):
     """Subclass of NumberError."""
-
-   
