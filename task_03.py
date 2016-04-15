@@ -11,5 +11,4 @@ def exception_test(arg1, arg2, arg3):
         arg1[arg2].index(arg3)
     except (TypeError, KeyError, IndexError):
         caught = True
-
     return caught
