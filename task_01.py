@@ -6,6 +6,7 @@
 class BaseError(Exception):
     """This is the Parent Class."""
 
+
 class StringError(BaseError, TypeError):
     """This is the sub class."""
     
