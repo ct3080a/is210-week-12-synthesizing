@@ -5,7 +5,6 @@
 
 def exception_test(arg1, arg2, arg3):
     """This function catches three types or errors."""
-    
     caught = False
     try:
         arg1[arg2].index(arg3)
